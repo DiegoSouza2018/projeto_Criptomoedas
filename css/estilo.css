@@ -59,3 +59,14 @@ section{
     background-color: #000b43;
     border: 1px solid #ffd700;
 }
+.form-cripto{
+    padding: 40px;
+    font-size: 20px;
+    margin: 100px;
+}
+.form-cripto-input{
+    font-size: 15px;
+}
+.form-cripto-check{
+    font-size: 15px;
+}
