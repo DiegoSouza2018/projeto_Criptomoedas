@@ -17,7 +17,10 @@
     font-size: 1.5em;
 }
 h1{
+    font-weight: 900;
+    color: #000;
     letter-spacing: -0.05em;
+    margin-bottom: 0;
 }
 body{
     background: linear-gradient(180deg,#000B43,#6a6a6a);
@@ -25,10 +28,6 @@ body{
     font-family: Intro;
     color: #FFF;
 }
-section{
-    margin: 100px 0;
-}
-
 .navbar-dark .navbar-brand{
     color: #FFF;
 }
@@ -59,3 +58,65 @@ section{
     background-color: #000b43;
     border: 1px solid #ffd700;
 }
+.formata-Rodape{
+    background-color: #000b43;
+    padding: 30px 0px 20px 0;
+    position: relative;
+}
+#home{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    background-color: #e9e9e9;
+}
+
+.btn-custom{
+    border-radius: 50px;
+    border: 5px solid #000b43;
+    background-color: #ffd9007c;
+}
+
+.btn-custom:hover{
+    background-color: #fff;
+}
+
+footer .navbar-nav a{
+    font-size: 0.8em;
+    color: #FFF;
+}
+
+footer .navbar-nav a:hover{
+    color: #ffd700;
+}
+
+footer h5{
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.btn-rodape{
+    border-radius: 10px;
+    border: 1px solid #e9e9e9;
+    color: #e9e9e9;
+    margin-bottom: 10px;
+    background-color: #ffffff44;
+}
+
+.btn-rodape:hover{
+    color: #e9e9e9;
+}
+
+/** João **/
+.form-cripto{
+    padding: 40px;
+    font-size: 20px;
+    margin: 100px;
+}
+.form-cripto-input{
+    font-size: 15px;
+}
+.form-cripto-check{
+    font-size: 15px;
+}
+/** João **/
