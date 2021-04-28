@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/estilo.css"/>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <title>Contato</title>
 </head>
 <body>
@@ -68,32 +69,103 @@
         </div>
     </header>
     <section class="form-cripto">
-        <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
-            A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", 
-            fazendo com que ele tenha uma aparência similar a de um texto legível. 
-            Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, 
-            e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. 
-            Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+        <p>
+            Esta é uma área para você esclarecer suas dúvidas e receber informações nos contatando.
+            Se, depois de passar pelo nosso site ainda existir alguma dúvida, utilize a caixa de texto abaixo e insira seu email.
+            Iremos te responder o mais rápido possível.
         </p>
-        <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control form-cripto-input" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
+        <br>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control form-cripto-input" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Digite suas dúvidas</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             <div class="col-12">
               <div class="form-check form-cripto-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  Eu aceito receber e-mails contendo informações sobre criptomoedas
+                  Desejo receber e-mails contendo informações sobre criptomoedas
                 </label>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+                <div class="form-check form-cripto-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Quero escolher receber informações sobre criptomoeda(s) específica(s)
+                    <br>
+                    (Marque as criptomoedas desejadas)
+                  </label>
+                </div>
+            </div>
+            <br>
+            <div class="container form-cripto-check">
+                <div class="row">
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Bitcoin
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Ethereum
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Iota
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Tether
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Dogecoin
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Litecoin
+                        </label>
+                      </div>
+                    </div>
+                  <div class="col-6 col-sm-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Stellar
+                        </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">
+                <i class="bi-diamond-half"></i> Sign in</button>
             </div>
           </form>
     </section>
