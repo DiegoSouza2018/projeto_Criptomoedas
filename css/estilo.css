@@ -1,10 +1,28 @@
+@font-face {
+    font-family: Rosmatika;
+    src: url(../fonts/Rosmatika.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Intro;
+    src: url(../fonts/IntroDemoCond-LightCAPS.otf);
+    font-weight: normal;
+}
 .bg-nav{
-    background-color: rgb(0, 11, 67, 0.8);
+    background-color: #000b43;
     padding: 15px 0;
 }
-body{ 
-    background: linear-gradient(180deg,#000B43, #6a6a6a);
+.font-custom{
+    font-family: Rosmatika;
+    font-size: 1.5em;
+}
+h1{
+    letter-spacing: -0.05em;
+}
+body{
+    background: linear-gradient(180deg,#000B43,#6a6a6a);
     background-attachment: fixed;
+    font-family: Intro;
     color: #FFF;
 }
 section{
@@ -29,4 +47,15 @@ section{
 .dropdown .dropdown-menu .dropdown-item:active{
     background-color: #ffd700;
     color: #000B43;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    color: #000B43;
+    background-color: #DCDCDC;
+}
+.dropdown .dropdown-menu .dropdown-item{
+    color: #fff;
+}
+.dropdown .dropdown-menu{
+    background-color: #000b43;
+    border: 1px solid #ffd700;
 }
