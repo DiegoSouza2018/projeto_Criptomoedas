@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Rosmatika;
+    font-family: Ethnocentric;
     src: url(../fonts/ethnocentric\ rg.ttf);
     font-weight: normal;
 }
@@ -13,7 +13,7 @@
     padding: 15px 0;
 }
 .font-custom{
-    font-family: Rosmatika;
+    font-family: Ethnocentric;
     font-size: 1.5em;
 }
 h1{
