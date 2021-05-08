@@ -119,4 +119,15 @@ footer h5{
 .form-cripto-check{
     font-size: 15px;
 }
+.doge-title{
+    padding: 40px;
+    font-size: 20px;
+    margin: 100px;
+}
+h2{
+    font-weight: 900;
+    color: black;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+}
 /** João **/
