@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilo.css"/>
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <title>Home - Future Money</title>
+    <title>Tether - Future Money</title>
 </head>
 <body>
     <header>
@@ -69,8 +69,67 @@
         </div>
     </header>
 
-    <section>
-
+    <section id="secao-tether">
+        <div class="container">
+            <h2>O que é o Tether?</h2>
+            <hr/>
+            <p>O tether faz partes das "stablecoins", são criptomoedas que tem sua cotação baseada em uma moeda fiduciária como o dólar americano(USD), o real brasileiro(BRL) e o euro(EUR). </p>
+            <div class="row">
+                <div class="col-md-4 vantagens">
+                    <h4>Vantagens:</h4>
+                    <ul>
+                        <li>Preço estável;</li>
+                        <li>Transações baratas.</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 desvantagens">
+                    <img src="../img/balança.png" alt="Imagem de uma Balança" width="99%"/>
+                </div>
+                <div class="col-md-4 desvantagens">
+                    <h4>Desvantagens: </h4>
+                    <ul>
+                        <li>Não é uma moeda anônima;</li>
+                        <li>É controlada por uma empresa: Tether;</li>
+                        <li>A Tether apresenta contradições no seus termos legais e riscos;</li>
+                        <li>Não é descentralizada.</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Mercado</h2>
+            <hr/>
+            <p>Veja abaixo o gráfico da cotação do Tether(USDT) em dólar americano(USD):</p>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_bf873"></div>
+                <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/USDTUSD/?exchange=KRAKEN" rel="noopener" target="_blank"><span class="blue-text">USDTUSD Cotação</span></a> por TradingVie</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.MediumWidget(
+                {
+                "symbols": [
+                [
+                    "Tether",
+                    "KRAKEN:USDTUSD|12M"
+                ]
+                ],
+                "chartOnly": false,
+                "width": "1000",
+                "height": "400",
+                "locale": "br",
+                "colorTheme": "light",
+                "gridLineColor": "#f0f3fa",
+                "trendLineColor": "#2196f3",
+                "fontColor": "#787b86",
+                "underLineColor": "#e3f2fd",
+                "isTransparent": true,
+                "autosize": false,
+                "container_id": "tradingview_bf873"
+            }
+                );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
     </section>
 
     <footer class="formata-Rodape">
