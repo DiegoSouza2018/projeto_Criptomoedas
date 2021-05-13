@@ -131,3 +131,22 @@ h2{
     margin-bottom: 0;
 }
 /** João **/
+#secao-tether{
+    margin-top: 100px;
+    background-color: #e9e9e9;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vantagens{
+    color: #32cd32;
+}
+
+.desvantagens{
+    color: #FA7082;
+}
+
+.grafico{
+    height: 400px;
+}
