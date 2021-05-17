@@ -150,3 +150,28 @@ footer h5{
 .grafico{
     height: 400px;
 }
+
+/*A partir daqui estão as formatações da Ethereum*/
+
+.tituloeth{
+    text-align: center;
+}
+.subtituloseth{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.peth{
+    font-size: 20px;
+}
+.secoeseth{
+    margin-bottom: 50px;
+}
+
+.funcionam{
+    text-align: center;
+    font-weight: bold;
+}
+
+.centro{
+    text-align: center;
+}
