@@ -108,6 +108,11 @@ footer h5{
 }
 
 /** João-Início **/
+#contato-page{
+    margin-top: 100px;
+    color: black;
+    padding-bottom: 40px;
+}
 .form-cripto{
     padding: 40px;
     font-size: 20px;
