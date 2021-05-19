@@ -41,7 +41,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="bitcoin.html">Bitcoin</a></li>
                         <li><a class="dropdown-item" href="ethereum.html">Ethereum</a></li>
-                        <li><a class="dropdown-item" href="#">Iota</a></li>
+                        <li><a class="dropdown-item" href="iota.html">Iota</a></li>
                         <li><a class="dropdown-item" href="tether.html">Tether</a></li>
                         <li><a class="dropdown-item" href="dogecoin.html">Dogecoin</a></li>
                         <li><a class="dropdown-item" href="litecoin.html">Litecoin</a></li>
@@ -98,8 +98,8 @@
                             •	Troca por ativos digitais (Bitcoin, Zcash, Monero e etc).<br>
                             </p>
                     </div>
-                    <div class="col-md-3">
-                        <img class="imgeth" src="../img/ethereum-bg9-684x513.jpg" alt="Ether" width="170%">
+                    <div class="col-md-5">
+                        <img class="imgeth ethereumimg" src="../img/ethereum-bg9-684x513.jpg" alt="Ether" width="100%">
                     </div>
                 </div>  
             </div>
@@ -134,35 +134,34 @@
             <div class="grafico container">
                 <!-- TradingView Widget BEGIN -->
                 <div class="tradingview-widget-container">
-                    <div id="tradingview_423ce"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/USDTUSD/?exchange=KRAKEN" rel="noopener" target="_blank"><span class="blue-text">USDTUSD Cotação</span></a> por TradingVie</div>
+                    <div id="tradingview_ff8d7"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/ETHBRL/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">ETHBRL Cotação</span></a> por TradingVie</div>
                     <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
                     <script type="text/javascript">
-                    new TradingView.MediumWidget(
-                    {
-                    "symbols": [
-                    [
-                        "Tether",
-                        "KRAKEN:USDTUSD|12M"
-                    ]
-                    ],
-                    "chartOnly": false,
-                    "width": "100%",
-                    "height": "100%",
-                    "locale": "br",
-                    "colorTheme": "light",
-                    "gridLineColor": "#F0F3FA",
-                    "trendLineColor": "#2196F3",
-                    "fontColor": "#787B86",
-                    "underLineColor": "#E3F2FD",
-                    "isTransparent": true,
-                    "autosize": true,
-                    "container_id": "tradingview_423ce"
-                }
-                    );
-                    </script>
-                </div>
-                <!-- TradingView Widget END -->
+                        new TradingView.MediumWidget(
+                        {
+                        "symbols": [
+                        [
+                            "BINANCE:ETHBRL|12M"
+                        ]
+                        ],
+                        "chartOnly": false,
+                        "width": "100%",
+                        "height": "100%",
+                        "locale": "br",
+                        "colorTheme": "light",
+                        "gridLineColor": "#F0F3FA",
+                        "trendLineColor": "#2196F3",
+                        "fontColor": "#787B86",
+                        "underLineColor": "#E3F2FD",
+                        "isTransparent": true,
+                        "autosize": true,
+                        "container_id": "tradingview_ff8d7"
+                    }
+                        );
+                        </script>
+                    </div>
+  <!-- TradingView Widget END -->
             </div>
         </div>
     </section>
