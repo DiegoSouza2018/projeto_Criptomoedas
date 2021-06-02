@@ -33,6 +33,7 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link{
     color: #FFF;
+    font-size: 1em;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #ffd700;
@@ -109,20 +110,22 @@ footer h5{
 
 /** João-Início **/
 #contato-page{
-    margin-top: 100px;
+    padding: 150px 50px 100px 50px;
     color: black;
     padding-bottom: 40px;
+    background-color: silver;
 }
 .form-cripto{
-    padding: 40px;
     font-size: 20px;
-    margin: 100px;
 }
 .form-cripto-input{
     font-size: 15px;
 }
 .form-cripto-check{
     font-size: 15px;
+}
+.btn-contato{
+    padding: 10px 10px 10px 10px;
 }
 #doge-page{
     margin-top: 100px;
@@ -209,4 +212,26 @@ footer h5{
 .lite-titulo{
     text-align: center;
     font-size: 45px;
+}
+
+@media(max-width: 576px){
+
+    .Logo{
+        font-size: 1em;
+    }
+    .Logo img{
+        height: 35px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 0.8em;
+    }
+    .dropdown .dropdown-menu .dropdown-item{
+        font-size: 0.8em;
+    }
+    .formata-Rodape{
+        font-size: 0.9em;
+    }
+    .formata-Rodape h5{
+        font-size: 0.8em;
+    }
 }
