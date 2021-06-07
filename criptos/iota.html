@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilo.css"/>
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <title>Iota</title>
+    <title>Iota - Future Money</title>
 </head>
 <body>
     <header>
@@ -29,9 +29,9 @@
                         Introdução
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">O que é uma criptomoeda?</a></li>
-                        <li><a class="dropdown-item" href="#">O que é uma blockchain?</a></li>
-                        <li><a class="dropdown-item" href="#">Como funciona o mercado de criptomoedas?</a></li>
+                            <li><a class="dropdown-item" href="../introducao.html#intro-cripto">O que é uma criptomoeda?</a></li>
+                            <li><a class="dropdown-item" href="../introducao.html#intro-blockchain">O que é uma blockchain?</a></li>
+                            <li><a class="dropdown-item" href="../introducao.html#intro-mercado">Como funciona o mercado de criptomoedas?</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -39,13 +39,13 @@
                         Criptomoedas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="bitcoin.html">Bitcoin</a></li>
-                        <li><a class="dropdown-item" href="ethereum.html">Ethereum</a></li>
-                        <li><a class="dropdown-item" href="iota.html">Iota</a></li>
-                        <li><a class="dropdown-item" href="tether.html">Tether</a></li>
-                        <li><a class="dropdown-item" href="dogecoin.html">Dogecoin</a></li>
-                        <li><a class="dropdown-item" href="litecoin.html">Litecoin</a></li>
-                        <li><a class="dropdown-item" href="stellar.html">Stellar</a></li>
+                            <li><a class="dropdown-item" href="bitcoin.html">Bitcoin</a></li>
+                            <li><a class="dropdown-item" href="ethereum.html">Ethereum</a></li>
+                            <li><a class="dropdown-item" href="iota.html">Iota</a></li>
+                            <li><a class="dropdown-item" href="tether.html">Tether</a></li>
+                            <li><a class="dropdown-item" href="dogecoin.html">Dogecoin</a></li>
+                            <li><a class="dropdown-item" href="litecoin.html">Litecoin</a></li>
+                            <li><a class="dropdown-item" href="stellar.html">Stellar</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -53,10 +53,10 @@
                         Simulação
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Carteira</a></li>
-                        <li><a class="dropdown-item" href="#">Contratos Inteligentes</a></li>
-                        <li><a class="dropdown-item" href="#">Mineração</a></li>
-                        <li><a class="dropdown-item" href="#">Transação</a></li>
+                            <li><a class="dropdown-item" href="#">Carteira</a></li>
+                            <li><a class="dropdown-item" href="#">Contratos Inteligentes</a></li>
+                            <li><a class="dropdown-item" href="#">Mineração</a></li>
+                            <li><a class="dropdown-item" href="#">Transação</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ">
@@ -68,42 +68,40 @@
             </nav>
         </div>
     </header>
-    <section id="doge-page">
-        <div class="container doge-page">
-            <h2><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Sobre a moeda</ins></h2>
+    <section id="doge-page" class="formata-secao">
+        <div class="container">
+            <h2 class="subtituloseth"><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Sobre a moeda</ins></h2>
             <br>
-                <p>
+                <p class="peth secoeseth">
                     Lançada em 2015, a IOTA tem foco na indústria de internet das coisas (IoT). Ela se difere de outras criptomoedas por não usar blockchain; no lugar disso, foi desenvolvida uma alternativa chamada Tangle.
-
                 </p>
-            <h2><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>O que ela traz de diferente</ins></h2>
+            <h2 class="subtituloseth"><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>O que ela traz de diferente</ins></h2>
             <br>  
-                <p>
+                <p class="peth secoeseth">
                     Ao contrário do blockchain comum, o consenso (e mineração) sobre as transações não precisa ser feito por usuários de fora; ele já é intrínseco ao sistema, o que teoricamente resolve os principais problemas do bitcoin, como alta latência e ineficiência energética.
                 </p>
-            <h2><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Como funciona (mineração, transação, taxa…)</ins></h2>
+            <h2 class="subtituloseth"><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Como funciona (mineração, transação, taxa…)</ins></h2>
             <br>
-                <p>
+                <p class="peth">
                     Desde sua criação, a IOTA é focada em IoT e nos serviços que essa tecnologia demanda, como:
                 </p>
-micro-transações e nano-transações: já que o sistema não cobra taxas, é bem prático enviar quantias muito pequenas de moedas para outra pessoa ou organização;
-<p></p>
-transferência de dados: o Tangle também consegue garantir um canal seguro de comunicação entre dispositivos, criptografando as informações da rede;
-<p></p>
-masked authenticated messaging (MAM): é um protocolo de comunicação que emite e acessa um fluxo de dados, como o RSS, de forma criptografada e garantindo a integridade dos dados;
-<p></p>
-votações: como a transmissão de dados é, em teoria, bem segura, dá para criar processos democráticos dentro do Tangle, como o de votação;
-                </p>
-            <h2><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Informações sobre seu futuro</ins></h2>
+                <ul class="peth secoeseth">
+                    <li>Micro-transações e nano-transações: já que o sistema não cobra taxas, é bem prático enviar quantias muito pequenas de moedas para outra pessoa ou organização;</li>
+                    <li>Transferência de dados: o Tangle também consegue garantir um canal seguro de comunicação entre dispositivos, criptografando as informações da rede;</li>
+                    <li>Masked authenticated messaging (MAM): é um protocolo de comunicação que emite e acessa um fluxo de dados, como o RSS, de forma criptografada e garantindo a integridade dos dados;</li>
+                    <li>Votações: como a transmissão de dados é, em teoria, bem segura, dá para criar processos democráticos dentro do Tangle, como o de votação;</li>
+                </ul>
+            <h2 class="subtituloseth"><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Informações sobre seu futuro</ins></h2>
             <br>
-                <p>
+                <p class="peth">
                     Embora várias fontes forneçam previsões muito diferentes para o longo prazo, elas podem não necessariamente se tornar realidade. Criptomoedas estão sujeitas a muitos fatores no longo prazo, alguns dos quais podem estar fora de seu controle. Regulamentações governamentais são um exemplo disso.
                 </p>
+                <p class="peth secoeseth">
                     A IOTA desenvolveu parcerias com grandes empresas como: Cisco, Samsung e Volkswagen. Eas estão testando a tecnologia da IOTA. Ela também está trabalhando com a cidade de Taipei para dar cartões de identidade, baseados no Tangle, a seus cidadãos.
-            <p></p>
+                </p>
 
-            <h2><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Mercado</ins></h2>
-                <p>
+            <h2 class="subtituloseth"><img src="../img/logotipo-IOTA-4.png" width="45" height="45" > <ins>Mercado</ins></h2>
+                <p class="peth">
                     Veja abaixo o gráfico da cotação da Iota em dólar americano(USD):
                 </p>
     <!-- TradingView Widget BEGIN -->
@@ -150,11 +148,11 @@ votações: como a transmissão de dados é, em teoria, bem segura, dá para cri
                     </div>
                     <div class="text-center">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Introdução</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Criptomoedas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../introducao.html">Introdução</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Simulação</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../criptos/bitcoin.html">Criptomoedas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../contato.html">Contato</a></li>
                         </ul>
                     </div>
                 </div>
@@ -164,10 +162,10 @@ votações: como a transmissão de dados é, em teoria, bem segura, dá para cri
                     </div>
                     <div class="text-center">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Visão</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Desenvolvedores</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Projetos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../institucional.html#sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../institucional.html#visao">Visão</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../institucional.html#desenvolvedores">Desenvolvedores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../institucional.html#projetos">Projetos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -177,10 +175,10 @@ votações: como a transmissão de dados é, em teoria, bem segura, dá para cri
                     </div>
                     <div class="text-center">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Coinmarketcap</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Unipam</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Facebook</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Twitter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://coinmarketcap.com" target="_blank">Coinmarketcap</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://unipam.edu.br/site.php" target="_blank">Unipam</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.infomoney.com.br" target="_blank">InfoMoney</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://br.tradingview.com" target="_blank">TradingView</a></li>
                         </ul>
                     </div>
                 </div>
