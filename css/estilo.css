@@ -3,17 +3,14 @@
     src: url(../fonts/ethnocentric\ rg.ttf);
     font-weight: normal;
 }
-@font-face {
-    font-family: Intro;
-    src: url(../fonts/IntroDemoCond-LightCAPS.otf);
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .bg-nav{
     background-color: #000B43;
     padding: 15px 0;
 }
 .font-custom{
-    font-family: Ethnocentric;
+    font-family: 'Ethnocentric';
     font-size: 1.5em;
 }
 h1{
@@ -25,7 +22,7 @@ h1{
 body{
     background: linear-gradient(180deg,#000B43,#6a6a6a);
     background-attachment: fixed;
-    font-family: Intro;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
 }
 .navbar-dark .navbar-brand{
